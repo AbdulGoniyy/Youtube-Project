@@ -1,0 +1,170 @@
+.body {
+  margin: 110px 0px 0px 130px;
+background-color: rgb(241, 241, 241);
+font-family: Roboto, Arial;
+}
+
+.grid-container {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   column-gap: 16px;
+   row-gap: 30px;
+   margin-right: 20px;
+}
+
+ @media (max-width: 750px) {
+  .grid-container {
+    grid-template-columns: 1fr 1fr;
+  }
+ }
+
+ @media (min-width: 751px) and (max-width: 899) {
+  .grid-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+ }
+
+ @media (min-width: 900px) {
+  .grid-container {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+ }
+
+.thumbnail-one,
+.thumbnail-two,
+.thumbnail-three,
+.thumbnail-four,
+.thumbnail-five,
+.thumbnail-six,
+.thumbnail-seven,
+.thumbnail-eight {
+  width: 100%;
+  position: relative;
+}
+
+
+.thumbnail-one-time,
+.thumbnail-two-time,
+.thumbnail-three-time,
+.thumbnail-four-time,
+.thumbnail-five-time,
+.thumbnail-six-time,
+.thumbnail-seven-time,
+.thumbnail-eight-time {
+  font-family: Roboto, Arial;
+  bottom: 10px;
+  right: 10px;
+position: absolute;
+background-color: black;
+color: white;
+font-size: 12px;
+padding: 4px 6px 4px 6px;;
+font-weight: bold;
+}
+
+.second-vertical{
+display: flex;
+flex-direction: row;
+margin-top: 15px;
+font-family: Roboto, Arial;
+}
+
+.channel-owner-one-div,
+.channel-owner-two-div {
+  height: 50px;
+}
+.channel-owner-one-div:hover .hover,
+.channel-owner-two-div:hover .hover {
+  opacity: 1;
+}
+
+.channel-owner-one,
+.channel-owner-two {
+  position: relative;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 23px;
+  object-position: left;
+}
+
+.channel-owner-one-div .hover,
+.channel-owner-two-div .hover {
+  opacity: 0;
+  z-index: 100;
+ margin-top: 10px;
+  position: absolute;
+  height: 60px;
+  background-color: white;
+  font-family: Roboto, Arial;
+  border-radius: 10px;
+   padding-top: 15px;
+   padding-bottom: 15px;
+  width: 250px;
+  box-shadow: 2px 2px 5px grey;
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  white-space: nowrap;
+  transition: opacity 0.15s;
+  pointer-events: none;
+}
+
+.hover-image{
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.hover-text-div {
+margin-left: 20px;
+
+}
+
+.hover-owner-name {
+  margin-top: 12px;
+  font-weight: bold;
+ margin-bottom: 0px;
+}
+
+.hover-views-count {
+  padding-bottom: 10px;
+  font-family: Roboto, Arial;
+color: rgb(87, 84, 84);
+ margin-top: 2px;
+}
+ 
+
+.second-horizontal {
+font-family: Roboto, Arial;
+padding-left: 10px;
+}
+
+.program-title-one {
+  margin-top: 0px;
+  margin-right: 0px;
+font-weight: bold;
+width: 200px;
+font-size: 12px;
+line-height: 20px;
+font-family: Roboto, Arial;
+}
+
+.inside-vertical-two {
+  color: grey;
+  font-size: 10px;
+  font-family: Arial;
+  font-weight: 600;
+  font-family: Roboto, Arial;
+}
+
+.channel-user-name-one {
+  margin-bottom: 0px;
+}
+
+.channel-views-count-one {
+margin-top: 6px;
+}
+
