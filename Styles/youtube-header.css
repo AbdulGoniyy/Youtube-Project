@@ -147,14 +147,17 @@ border-radius: 10px;
  }
 
  .admin-image {
-  height: 45px;
- width: 45px;
+  height: 50px;
+ width: 50px;
  border-radius: 25px;
  object-fit: contain;
  margin-right: 20px;
  margin-left: 15px;
  }
 
+ .admin-image:hover {
+  
+ }
 
  .side-bar-container {
   position: fixed;

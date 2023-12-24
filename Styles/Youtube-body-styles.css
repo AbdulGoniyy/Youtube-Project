@@ -12,13 +12,19 @@ font-family: Roboto, Arial;
    margin-right: 20px;
 }
 
+@media (min-width: 100px) and (max-width: 200px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+ }
+
  @media (max-width: 750px) {
   .grid-container {
     grid-template-columns: 1fr 1fr;
   }
  }
 
- @media (min-width: 751px) and (max-width: 899) {
+ @media (min-width: 751px) and (max-width: 899px) {
   .grid-container {
     grid-template-columns: 1fr 1fr 1fr;
   }
@@ -69,17 +75,14 @@ margin-top: 15px;
 font-family: Roboto, Arial;
 }
 
-.channel-owner-one-div,
-.channel-owner-two-div {
+.channel-owner-div {
   height: 50px;
 }
-.channel-owner-one-div:hover .hover,
-.channel-owner-two-div:hover .hover {
+.channel-owner-div:hover .hover {
   opacity: 1;
 }
 
-.channel-owner-one,
-.channel-owner-two {
+.channel-owner-img {
   position: relative;
   cursor: pointer;
   width: 50px;
@@ -89,8 +92,7 @@ font-family: Roboto, Arial;
   object-position: left;
 }
 
-.channel-owner-one-div .hover,
-.channel-owner-two-div .hover {
+.channel-owner-div .hover {
   opacity: 0;
   z-index: 100;
  margin-top: 10px;
@@ -167,4 +169,3 @@ font-family: Roboto, Arial;
 .channel-views-count-one {
 margin-top: 6px;
 }
-
