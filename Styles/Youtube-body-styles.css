@@ -48,6 +48,13 @@ font-family: Roboto, Arial;
   position: relative;
 }
 
+.thumbnail-one {
+  height: 160px;
+}
+
+.thumbnail-three {
+  height: 160px;
+}
 
 .thumbnail-one-time,
 .thumbnail-two-time,
