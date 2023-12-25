@@ -43,18 +43,22 @@ font-family: Roboto, Arial;
 .thumbnail-five,
 .thumbnail-six,
 .thumbnail-seven,
-.thumbnail-eight {
+.thumbnail-eight,
+.thumbnail-eighteen,
+.thumbnail-twenty,
+.thumbnail-twenty-two {
   width: 100%;
   position: relative;
 }
 
-.thumbnail-one {
+.thumbnail-one,
+.thumbnail-three,
+.thumbnail-eighteen,
+.thumbnail-twenty,
+.thumbnail-twenty-two {
   height: 160px;
 }
 
-.thumbnail-three {
-  height: 160px;
-}
 
 .thumbnail-one-time,
 .thumbnail-two-time,
