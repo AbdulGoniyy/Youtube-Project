@@ -10,115 +10,89 @@
   </head>
   <body class="body">
 
-
     <div class="header">
-
-    <div class="left-header">
-
-    <div>
-    <img class="hamburger-menu" src="Nav-bar-icons/hamburger-menu.svg">
+      <div class="left-header">
+        <div class="hamburger-menu-container">
+          <img class="hamburger-menu" src="Nav-bar-icons/hamburger-menu.svg" onclick="toggleDropdownMenu()">
+        </div>
+        <div>
+          <img class="youtube-logo" src="Nav-bar-icons/youtube-logo.svg">
+        </div>
+      </div>
+      <div class="middle-header">
+        <div class="search-bar-div">
+          <input class="search-box" placeholder="Search">
+        </div>
+      </div>
+      <div class="right-header">
+        <div class="upload-icon-div">
+          <img class="upload-icon" src="Nav-bar-icons/upload.svg">
+          <div class="tooltip">Upload</div>
+        </div>
+        <div class="youtube-apps-div">
+          <img class="youtube-apps" src="Nav-bar-icons/youtube-apps.svg">
+          <div class="tooltip">YouTube Apps</div>
+        </div>
+        <div class="notifications-icon-div">
+          <div>
+            <img class="notifications-icon" src="Nav-bar-icons/notifications.svg">
+            <div class="notifications-count">3</div>
+          </div>
+          <div class="tooltip">Notifications</div>
+        </div>
+        <div>
+          <img class="admin-image" src="Youtube-clone-images/KElani Senior.PNG">
+        </div>
+      </div>
     </div>
-
-    <div>
-    <img class="youtube-logo" src="Nav-bar-icons/youtube-logo.svg">
+    
+    <div class="dropdown-menu" id="dropdownMenu">
+      <div class="dropdown-item">
+        <img class="upload-icon" src="Nav-bar-icons/upload.svg">
+        <div>Upload</div>
+      </div>
+      <div class="dropdown-item">
+        <img class="youtube-apps" src="Nav-bar-icons/youtube-apps.svg">
+        <div>YouTube Apps</div>
+      </div>
+      <div class="dropdown-item">
+        <img class="notifications-icon" src="Nav-bar-icons/notifications.svg">
+        <div>Notifications</div>
+      </div>
+      <div class="dropdown-item">
+        <img class="admin-image" src="Youtube-clone-images/KElani Senior.PNG">
+        <div>Profile</div>
+      </div>
     </div>
-
-    </div>
-
-    <div class="middle-header">
-
-    <div class="search-bar-div">
-    <input class="search-box" placeholder="Search"> 
-    </div>
-
-    <div class="search-icon-div">
-    <img class="search-icon" src="Nav-bar-icons/search.svg">
-    <div class="tooltip"> Search </div>
-    </div>
-
-
-    <div class="microphone-icon-div">
-    <img class="microphone-icon" src="Nav-bar-icons/voice-search-icon.svg">
-    <div class="tooltip"> Voice Search </div>
-    </div>
-
-    </div>
-
-    <div class="right-header">
-
-
-    <div class="upload-icon-div">
-    <img class="upload-icon" src="Nav-bar-icons/upload.svg">
-    <div class="tooltip"> Upload </div>
-    </div>
-
-    <div class="youtube-apps-div">
-    <img class="youtube-apps" src="Nav-bar-icons/youtube-apps.svg">
-    <div class="tooltip"> Youtube Apps </div>
-    </div>
-
-    <div class="notifications-icon-div">
-    <div> <img class="notifications-icon" src="Nav-bar-icons/notifications.svg"> 
-    <div class="notifications-count"> 3 </div>
-    </div>
-    <div class="tooltip"> Notifications </div>
-    </div>
-
-    <div>
-    <img class="admin-image" src="Youtube-clone-images/KElani Senior.PNG">
-    </div>
-
-    </div>
-
-    </div>
-
-
+    
     <div class="side-bar-container">
-
-    <div class="side-icons">
-    <img class="home-icon" src="Nav-bar-icons/home.svg">
-    <p class="home-text">
-    Home
-    </p>
+      <div class="side-icons">
+        <img class="home-icon" src="Nav-bar-icons/home.svg">
+        <p class="home-text">Home</p>
+      </div>
+      <div class="side-icons">
+        <img class="explore-icon" src="Nav-bar-icons/explore.svg">
+        <p class="explore-text">Explore</p>
+      </div>
+      <div class="side-icons">
+        <img class="subscriptions-icon" src="Nav-bar-icons/subscriptions.svg">
+        <p class="subscriptions-text">Subscriptions</p>
+      </div>
+      <div class="side-icons">
+        <img class="originals-icon" src="Nav-bar-icons/originals.svg">
+        <p class="originals-text">Originals</p>
+      </div>
+      <div class="side-icons">
+        <img class="youtube-music-icon" src="Nav-bar-icons/youtube-music.svg">
+        <p class="youtube-music-text">YouTube Qur'an</p>
+      </div>
+      <div class="side-icons">
+        <img class="library-icon" src="Nav-bar-icons/library.svg">
+        <p class="library-text">Library</p>
+      </div>
     </div>
-
-    <div class="side-icons">
-    <img class="explore-icon" src="Nav-bar-icons/explore.svg">
-    <p class="explore-text"> 
-    Explore
-    </p>
-    </div>
-
-    <div class="side-icons">
-    <img class="subscriptions-icon" src="Nav-bar-icons/subscriptions.svg">
-    <p class="subscriptions-text">
-    Subscriptions
-    </p>
-    </div>
-
-    <div class="side-icons">
-    <img class="originals-icon" src="Nav-bar-icons/originals.svg">
-    <p class="originals-text">
-    Originals
-    </p>
-    </div>
-
-
-    <div class="side-icons">
-    <img class="youtube-music-icon" src="Nav-bar-icons/youtube-music.svg">
-    <p class="youtube-music-text">
-    YouTube Qur'an
-    </p>
-    </div>
-
-    <div class="side-icons">
-    <img class="library-icon" src="Nav-bar-icons/library.svg">
-    <p class="library-text">
-    Library
-    </p>
-    </div>
-
-    </div>
+  
+    
 
 
     <div class="grid-container">
@@ -1312,6 +1286,7 @@
     <!--Ends Here-->
     </div>
 
+    <script src="index.js"></script>
   </body>
 
   </html>
