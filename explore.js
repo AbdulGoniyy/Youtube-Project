@@ -26,16 +26,16 @@
     // Add more entries up to 30 for the "Games" category
   ],
   lectures: [
-    { thumbnail: 'Youtube-clone-images/Developers Life.webp', title: 'A Typical Day of a Frontend Engineer at Web Weavers', owner: 'AbdulGoniyy', views: '8M', date: '4 days ago' },
-    { thumbnail: 'Youtube-clone-images/Grow money.jpg', title: 'Making Money in Artificial Inteligence Era', owner: 'AbdulGoniyy', views: '12M', date: '2 days ago' },
-    { thumbnail: 'Youtube-clone-images/Developers Life.webp', title: 'A Typical Day of a Frontend Engineer at Web Weavers', owner: 'AbdulGoniyy', views: '8M', date: '4 days ago' },
-    { thumbnail: 'Youtube-clone-images/Grow money.jpg', title: 'Making Money in Artificial Inteligence Era', owner: 'AbdulGoniyy', views: '12M', date: '2 days ago' },
-    { thumbnail: 'Youtube-clone-images/Developers Life.webp', title: 'A Typical Day of a Frontend Engineer at Web Weavers', owner: 'AbdulGoniyy', views: '8M', date: '4 days ago' },
-    { thumbnail: 'Youtube-clone-images/Grow money.jpg', title: 'Making Money in Artificial Inteligence Era', owner: 'AbdulGoniyy', views: '12M', date: '2 days ago' },
-    { thumbnail: 'Youtube-clone-images/Developers Life.webp', title: 'A Typical Day of a Frontend Engineer at Web Weavers', owner: 'AbdulGoniyy', views: '8M', date: '4 days ago' },
-    { thumbnail: 'Youtube-clone-images/Grow money.jpg', title: 'Making Money in Artificial Inteligence Era', owner: 'AbdulGoniyy', views: '12M', date: '2 days ago' },
-    { thumbnail: 'Youtube-clone-images/Developers Life.webp', title: 'A Typical Day of a Frontend Engineer at Web Weavers', owner: 'AbdulGoniyy', views: '8M', date: '4 days ago' },
-    { thumbnail: 'Youtube-clone-images/Grow money.jpg', title: 'Making Money in Artificial Inteligence Era', owner: 'AbdulGoniyy', views: '12M', date: '2 days ago' },
+    { thumbnail: 'Youtube-clone-images/Developers-life.webp', title: 'A Typical Day of a Frontend Engineer at Web Weavers', owner: 'AbdulGoniyy', views: '8M', date: '4 days ago' },
+    { thumbnail: 'Youtube-clone-images/Grow-money.jpeg', title: 'Making Money in Artificial Inteligence Era', owner: 'AbdulGoniyy', views: '12M', date: '2 days ago' },
+    { thumbnail: 'Youtube-clone-images/Developers-life.webp', title: 'A Typical Day of a Frontend Engineer at Web Weavers', owner: 'AbdulGoniyy', views: '8M', date: '4 days ago' },
+    { thumbnail: 'Youtube-clone-images/Grow-money.jpeg', title: 'Making Money in Artificial Inteligence Era', owner: 'AbdulGoniyy', views: '12M', date: '2 days ago' },
+    { thumbnail: 'Youtube-clone-images/Developers-life.webp', title: 'A Typical Day of a Frontend Engineer at Web Weavers', owner: 'AbdulGoniyy', views: '8M', date: '4 days ago' },
+    { thumbnail: 'Youtube-clone-images/Grow-money.jpeg', title: 'Making Money in Artificial Inteligence Era', owner: 'AbdulGoniyy', views: '12M', date: '2 days ago' },
+    { thumbnail: 'Youtube-clone-images/Developers-life.webp', title: 'A Typical Day of a Frontend Engineer at Web Weavers', owner: 'AbdulGoniyy', views: '8M', date: '4 days ago' },
+    { thumbnail: 'Youtube-clone-images/Grow-money.jpeg', title: 'Making Money in Artificial Inteligence Era', owner: 'AbdulGoniyy', views: '12M', date: '2 days ago' },
+    { thumbnail: 'Youtube-clone-images/Developers-life.webp', title: 'A Typical Day of a Frontend Engineer at Web Weavers', owner: 'AbdulGoniyy', views: '8M', date: '4 days ago' },
+    { thumbnail: 'Youtube-clone-images/Grow-money.jpeg', title: 'Making Money in Artificial Inteligence Era', owner: 'AbdulGoniyy', views: '12M', date: '2 days ago' },
     // Add more entries up to 30 for the "Lectures" category
   ],
   development: [
