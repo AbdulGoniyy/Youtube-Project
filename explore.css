@@ -1,0 +1,97 @@
+main{
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+.explore-header {
+  display: flex;
+}
+
+.explore-header-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  margin-bottom: 0px;
+}
+
+.explore-header-text {
+  margin-left: 20px;
+}
+
+.explore-container {
+  margin-top: 0px;
+  margin-left: -20px;
+  padding: 20px;
+}
+
+.explore-navbar {
+  display: flex;
+  padding: 10px;
+}
+
+.explore-nav-link {
+  color: #555;
+  background: none;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.explore-nav-link.active {
+  background-color: #FF0000;
+}
+
+.hr {
+  margin-top: -10px;
+  margin-left: -50px;
+}
+.explore-content {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.explore-card {
+  display: flex;
+  flex-direction: column;
+  width: calc(33.333% - 20px);
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.explore-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.explore-card-info {
+  margin-top: 10px;
+}
+
+.explore-card-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.explore-card-owner,
+.explore-card-views,
+.explore-card-date {
+  font-size: 14px;
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  .explore-card {
+    width: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 480px) {
+  .explore-card {
+    width: calc(100% - 20px);
+  }
+}
