@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Youtube Clone</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="explore.css">
+</head>
+<body>
+  
+  <!--Header-->
+  <div class="header">
+    <div class="left-header">
+      <div class="hamburger-menu-container">
+        <img class="hamburger-menu" src="Nav-bar-icons/hamburger-menu.svg" onclick="toggleDropdownMenu()">
+      </div>
+      <div>
+        <img class="youtube-logo" src="Nav-bar-icons/youtube-logo.svg">
+      </div>
+    </div>
+    <div class="middle-header">
+      <div class="search-bar-div">
+        <input class="search-box" placeholder="Search">
+        <img class="search-icon" src="Nav-bar-icons/search.svg" alt="">
+      </div>
+    </div>
+    <div class="right-header">
+      <div class="upload-icon-div">
+        <img class="upload-icon" src="Nav-bar-icons/upload.svg">
+        <div class="tooltip">Upload</div>
+      </div>
+      <div class="youtube-apps-div">
+        <img class="youtube-apps" src="Nav-bar-icons/youtube-apps.svg">
+        <div class="tooltip">YouTube Apps</div>
+      </div>
+      <div class="notifications-icon-div">
+        <div>
+          <img class="notifications-icon" src="Nav-bar-icons/notifications.svg">
+          <div class="notifications-count">3</div>
+        </div>
+        <div class="tooltip">Notifications</div>
+      </div>
+      <div>
+        <img class="admin-image" src="Youtube-clone-images/KElani Senior.PNG">
+      </div>
+    </div>
+  </div>
+  
+  <!--Dropdown-->
+  <div class="dropdown-menu" id="dropdownMenu">
+    <div class="dropdown-item">
+      <img class="upload-icon" src="Nav-bar-icons/upload.svg">
+      <div>Upload</div>
+    </div>
+    <div class="dropdown-item">
+      <img class="youtube-apps" src="Nav-bar-icons/youtube-apps.svg">
+      <div>YouTube Apps</div>
+    </div>
+    <div class="dropdown-item">
+      <img class="notifications-icon" src="Nav-bar-icons/notifications.svg">
+      <div>Notifications</div>
+    </div>
+    <div class="dropdown-item">
+      <img class="admin-image" src="Youtube-clone-images/KElani Senior.PNG">
+      <div>Profile</div>
+    </div>
+  </div>
+  
+  <!--SideBar-->
+  <div class="side-bar-container">
+    <div class="side-icons">
+      <a style="text-decoration: none;" href="index.html">
+        <img class="home-icon" src="Nav-bar-icons/home.svg">
+      <p class="home-text">Home</p>
+      </a>
+      
+    </div>
+    <div class="side-icons">
+      <a style="text-decoration: none;" href="explore.html">
+        <img class="explore-icon" src="Nav-bar-icons/explore.svg">
+      <p class="explore-text">Explore</p>
+      </a>
+      
+    </div>
+    <div class="side-icons">
+      <img class="subscriptions-icon" src="Nav-bar-icons/subscriptions.svg">
+      <p class="subscriptions-text">Subscriptions</p>
+    </div>
+    <div class="side-icons">
+      <img class="originals-icon" src="Nav-bar-icons/originals.svg">
+      <p class="originals-text">Originals</p>
+    </div>
+    <div class="side-icons">
+      <img class="youtube-music-icon" src="Nav-bar-icons/youtube-music.svg">
+      <p class="youtube-music-text">YouTube Qur'an</p>
+    </div>
+    <div class="side-icons">
+      <img class="library-icon" src="Nav-bar-icons/library.svg">
+      <p class="library-text">Library</p>
+    </div>
+  </div>
+
+  <!--Contents-->
+  <main>
+    <div class="explore-header">
+      <img class="explore-header-image" src="Channel-images/trending.png" alt="trending videos">
+      <h1 class="explore-header-text">Trending</h1>
+    </div>
+
+    
+    <div class="explore-container">
+      <nav class="explore-navbar">
+        <button class="explore-nav-link active" data-category="now">Now</button>
+        <button class="explore-nav-link" data-category="games">Games</button>
+        <button class="explore-nav-link" data-category="lectures">Lectures</button>
+        <button class="explore-nav-link" data-category="development">Development</button>
+      </nav>
+      <hr class="hr">
+      <div class="explore-content">
+        <!-- Contents will be loaded here dynamically -->
+      </div>
+    </div>
+    <script src="explore.js"></script>
+  </main>
+</body>
+</html>
