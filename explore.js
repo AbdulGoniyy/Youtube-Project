@@ -40,17 +40,17 @@
   ],
   development: [
     { thumbnail: 'Youtube-clone-images/USBC-PORT.jpg', title: 'Iphone Finally Launched USBC Port', owner: 'AbdulGoniyy', views: '25M', date: '1 month ago' },
-    { thumbnail: 'Youtube-clone-images/Grow money.jpg', title: 'Making Money in Artificial Inteligence Era', owner: 'AbdulGoniyy', views: '30M', date: '2 weeks ago' },
+    { thumbnail: 'Youtube-clone-images/Grow-money.jpeg', title: 'Making Money in Artificial Inteligence Era', owner: 'AbdulGoniyy', views: '30M', date: '2 weeks ago' },
     { thumbnail: 'Youtube-clone-images/USBC-PORT.jpg', title: 'Iphone Finally Launched USBC Port', owner: 'AbdulGoniyy', views: '25M', date: '1 month ago' },
-    { thumbnail: 'Youtube-clone-images/Grow money.jpg', title: 'Making Money in Artificial Inteligence Era', owner: 'AbdulGoniyy', views: '30M', date: '2 weeks ago' },
+    { thumbnail: 'Youtube-clone-images/Grow-money.jpeg', title: 'Making Money in Artificial Inteligence Era', owner: 'AbdulGoniyy', views: '30M', date: '2 weeks ago' },
     { thumbnail: 'Youtube-clone-images/USBC-PORT.jpg', title: 'Iphone Finally Launched USBC Port', owner: 'AbdulGoniyy', views: '25M', date: '1 month ago' },
-    { thumbnail: 'Youtube-clone-images/Grow money.jpg', title: 'Making Money in Artificial Inteligence Era', owner: 'AbdulGoniyy', views: '30M', date: '2 weeks ago' },
+    { thumbnail: 'Youtube-clone-images/Grow-money.jpeg', title: 'Making Money in Artificial Inteligence Era', owner: 'AbdulGoniyy', views: '30M', date: '2 weeks ago' },
     { thumbnail: 'Youtube-clone-images/USBC-PORT.jpg', title: 'Iphone Finally Launched USBC Port', owner: 'AbdulGoniyy', views: '25M', date: '1 month ago' },
-    { thumbnail: 'Youtube-clone-images/Grow money.jpg', title: 'Making Money in Artificial Inteligence Era', owner: 'AbdulGoniyy', views: '30M', date: '2 weeks ago' },
+    { thumbnail: 'Youtube-clone-images/Grow-money.jpeg', title: 'Making Money in Artificial Inteligence Era', owner: 'AbdulGoniyy', views: '30M', date: '2 weeks ago' },
     { thumbnail: 'Youtube-clone-images/USBC-PORT.jpg', title: 'Iphone Finally Launched USBC Port', owner: 'AbdulGoniyy', views: '25M', date: '1 month ago' },
-    { thumbnail: 'Youtube-clone-images/Grow money.jpg', title: 'Making Money in Artificial Inteligence Era', owner: 'AbdulGoniyy', views: '30M', date: '2 weeks ago' },
+    { thumbnail: 'Youtube-clone-images/Grow-money.jpeg', title: 'Making Money in Artificial Inteligence Era', owner: 'AbdulGoniyy', views: '30M', date: '2 weeks ago' },
     { thumbnail: 'Youtube-clone-images/USBC-PORT.jpg', title: 'Iphone Finally Launched USBC Port', owner: 'AbdulGoniyy', views: '25M', date: '1 month ago' },
-    { thumbnail: 'Youtube-clone-images/Grow money.jpg', title: 'Making Money in Artificial Inteligence Era', owner: 'AbdulGoniyy', views: '30M', date: '2 weeks ago' },
+    { thumbnail: 'Youtube-clone-images/Grow-money.jpeg', title: 'Making Money in Artificial Inteligence Era', owner: 'AbdulGoniyy', views: '30M', date: '2 weeks ago' },
     // Add more entries up to 30 for the "Development" category
   ]
 };
