@@ -27,6 +27,52 @@ main{
 .explore-navbar {
   display: flex;
   padding: 10px;
+  justify-content: space-between; /* Ensures that buttons are spaced out evenly */
+  flex-wrap: wrap; /* Allows buttons to wrap to next line on small screens */
+}
+
+.explore-nav-link {
+  color: #555;
+  background: none;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  flex: 1; /* Makes each button take equal space */
+  text-align: center; /* Centers text in the buttons */
+}
+
+.explore-nav-link.active {
+  background-color: #FF0000;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .explore-navbar {
+    justify-content: center; /* Center the buttons on medium screens */
+  }
+
+  .explore-nav-link {
+    padding: 10px 15px; /* Adjust padding for smaller screens */
+    font-size: 14px; /* Adjust font size for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .explore-navbar {
+    flex-direction: column; /* Stack buttons vertically on small screens */
+    align-items: stretch; /* Ensure buttons stretch to the width of the container */
+  }
+
+  .explore-nav-link {
+    padding: 10px; /* Adjust padding for very small screens */
+    font-size: 12px; /* Adjust font size for very small screens */
+  }
+}
+
+.explore-navbar {
+  display: flex;
+  padding: 10px;
 }
 
 .explore-nav-link {
